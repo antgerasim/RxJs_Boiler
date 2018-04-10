@@ -1,0 +1,30 @@
+{
+  "name": "rxjs_boiler",
+  "version": "1.0.0",
+  "description": "Webpack & babel for rxjs sandboxing in 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antgerasim/RxJs_Boiler.git"
+  },
+  "author": "antgerasim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antgerasim/RxJs_Boiler/issues"
+  },
+  "homepage": "https://github.com/antgerasim/RxJs_Boiler#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.3.1",
+    "rxjs": "^5.5.8",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
